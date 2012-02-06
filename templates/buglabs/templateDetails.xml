@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="1.7" type="template" client="site">
+	<name>buglabs</name>
+	<creationDate>January 2012, 18th</creationDate>
+	<author>Maxime Vedelago</author>
+	<authorEmail></authorEmail>
+	<authorUrl>http://buglabs.net</authorUrl>
+	<copyright></copyright>
+	<license></license>
+	<version>1.0</version>
+	<description>buglabs template</description>
+
+</extension>
