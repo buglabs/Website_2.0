@@ -1,5 +1,5 @@
 <!--[if IE]> 
 	<div id="IE_banner">
-	Internet Explorer banner
+	IE_banner
 	</div> 
 <![endif]-->
