@@ -179,24 +179,24 @@
 
 /*---------------------------------------------------------------------------------*/
 /*products presentation*/
-#content .showcase
+.item-page .showcase
 {
 	position: relative; /*to be able to position the zoomed image*/
 }
 
-#content table
+.item-page table
 {
     border-collapse: collapse;
 }
 
 
-#content .main_image
+.item-page .main_image
 {
 	display: inline-block;
 	vertical-align: top;
 }
 
-#content .main_image img
+.item-page .main_image img
 {
 	width: 500px;
 	
@@ -204,7 +204,7 @@
 	-moz-border-radius: 5px;
 }
 
-#content .thumbnail_table
+.item-page .thumbnail_table
 {
 	display: inline-block;
 	width: 110px;
@@ -213,16 +213,15 @@
 	margin-left: 20px;
 }
 
-#content .thumbnail_table td
+.item-page .thumbnail_table td
 {
 	border: none;
 	padding: 0px;
 }
 
-#content .thumbnail img
+.item-page .thumbnail img
 {
 	width: 100px;
-	height: 80px;
 	
 	border-radius: 2px;
 	-moz-border-radius: 2px;
