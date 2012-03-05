@@ -255,50 +255,40 @@
 /*---------------------------------------------------------------------------------*/
 /*pictures form the services main page*/
 
+#services table
+{
+	border-collapse: collapse;
+}
+
+#services table td
+{
+	vertical-align: top;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+
 #services .picture
 {
-	display: inline-block;
+	padding-right: 15px;
+}
+
+#services .details
+{
+	padding-left: 15px;
+}
+
+#services .details h2
+{
+	margin-top: 0px;
 }
 
 #services .picture img
 {
-	width: 209px;
-	
-	margin-top: 10px;
-	margin-right: 14px;
-	
-	border-radius: 3px;
-	-moz-border-radius: 3px;
-}
-
-#services table h1, #services_case_studies table h1
-{
-	font-size: 1.3em;
-	font-weight: 500;
-	color: #DF1E1C;	
-}
-
-#services table td, #services_case_studies table td
-{
-	vertical-align: top;
-	width: 310px;
-	
-	padding-left: 15px;
-	padding-right: 15px;
+	width: 150px;
+	height: 125px;
 	
 	border-radius: 5px;
 	-moz-border-radius: 5px;
-	
-	border: 1px outset #D4D4D4;
-}
-
-#services table img, #services_case_studies table img
-{
-	width: 180px;
-	height: 100px;
-	
-	border-radius: 3px;
-	-moz-border-radius: 3px;
 }
 
 /*---------------------------------------------------------------------------------*/
@@ -308,7 +298,6 @@
 {
 	border-collapse: separate;
 	border-spacing: 10px;
-	
 }
 
 #services_case_studies table h1
@@ -539,14 +528,6 @@
 	box-shadow: none;
 	-moz-box-shadow: none;
 }
-
-/*---------------------------------------------------------------------------------*/
-/*pages without menu*/
-/*#wide_content
-{
-	margin-left: -190px;
-	width: 128%;
-}*/
 
 /*---------------------------------------------------------------------------------*/
 /*bug video page*/
