@@ -253,39 +253,54 @@
 }
 
 /*---------------------------------------------------------------------------------*/
-/*pictures form the services main page*/
+/*services and results main pages*/
 
-#services table
+#services table, #results table
 {
 	border-collapse: collapse;
 }
 
-#services table td
+#services table td, #results table td
 {
 	vertical-align: top;
 	padding-top: 10px;
 	padding-bottom: 15px;
 }
 
-#services .picture
+#services .picture, #results .picture
 {
 	padding-right: 15px;
 }
 
-#services .details
+#services .details, #results .details
 {
 	padding-left: 15px;
 }
 
-#services .details h2
+#services .details h2, #results .details h2
 {
 	margin-top: 0px;
 }
+
+/*---------------------------------------------------------------------------------*/
+/*specific to the services main pages*/
 
 #services .picture img
 {
 	width: 150px;
 	height: 125px;
+	
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+/*---------------------------------------------------------------------------------*/
+/*specific to the results main pages*/
+
+#results .picture img
+{
+	width: 230px;
+	height: 120px;
 	
 	border-radius: 5px;
 	-moz-border-radius: 5px;
