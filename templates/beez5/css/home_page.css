@@ -20,6 +20,8 @@
 
 #first_section td img
 {
+	margin-top: -150px;
+	
 	width: 314px;
 	height: 300px;
 	opacity: 0;
