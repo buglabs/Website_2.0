@@ -3,11 +3,39 @@
 
 #first_section
 {
+	position: relative;
 	margin-bottom: 5px;
+}
+
+#first_section table
+{
+	border-collapse: collapse;
+}
+
+#first_section td
+{
+	width: 314px;
+	height: 300px;
+}
+
+#first_section td img
+{
+	width: 314px;
+	height: 300px;
+	opacity: 0;
+	
+	/*for IE8*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	/*------*/
 }
 
 #first_section img
 {
+	position: absolute;
+	
+	width: 952px;
+	height: 300px;
+
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	
