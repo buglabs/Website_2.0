@@ -28,6 +28,9 @@
 				
 				<jdoc:include type="modules" name="title_menu_videos" />
 				<jdoc:include type="modules" name="menu_videos" />
+				
+				<jdoc:include type="modules" name="title_menu_results" />
+				<jdoc:include type="modules" name="menu_results" />
 			</nav>
 			
 			<div id="content">
