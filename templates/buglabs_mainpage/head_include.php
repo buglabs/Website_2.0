@@ -3,12 +3,12 @@
 <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
 
-<link rel="shortcut icon" type="image/x-icon" href="/templates/beez5/images/favicon.ico" />
+<link rel="shortcut icon" type="image/x-icon" href="/templates/buglabs_mainpage/images/favicon.ico" />
 
-<link rel="stylesheet" href="/templates/beez5/css/home_page.css" />
-<link rel="stylesheet" href="/templates/beez5/css/body.css" />
-<link rel="stylesheet" href="/templates/beez5/css/header.css" />
-<link rel="stylesheet" href="/templates/beez5/css/footer.css" />
+<link rel="stylesheet" href="/templates/buglabs_mainpage/css/home_page.css" />
+<link rel="stylesheet" href="/templates/buglabs_mainpage/css/body.css" />
+<link rel="stylesheet" href="/templates/buglabs_mainpage/css/header.css" />
+<link rel="stylesheet" href="/templates/buglabs_mainpage/css/footer.css" />
 
 <!--[if lt IE 9]>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>

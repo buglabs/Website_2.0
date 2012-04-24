@@ -1,0 +1,11 @@
+<extension version="2.5" type="template" client="site">
+<name>buglabs_mainpage</name>
+<creationDate>April 2012, 24th</creationDate>
+<author>Maxime Vedelago</author>
+<authorEmail/>
+<authorUrl>http://buglabs.net</authorUrl>
+<copyright/>
+<license/>
+<version>1.0</version>
+<description>buglabs template</description>
+</extension>
