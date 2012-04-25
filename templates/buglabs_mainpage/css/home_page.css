@@ -50,27 +50,21 @@
 
 #second_section
 {
-	background-image: linear-gradient(bottom, rgb(67,67,67) 42%, rgb(79,79,79) 44%);
-	background-image: -o-linear-gradient(bottom, rgb(67,67,67) 42%, rgb(79,79,79) 44%);
-	background-image: -moz-linear-gradient(bottom, rgb(67,67,67) 42%, rgb(79,79,79) 44%);
-	background-image: -webkit-linear-gradient(bottom, rgb(67,67,67) 42%, rgb(79,79,79) 44%);
-	background-image: -ms-linear-gradient(bottom, rgb(67,67,67) 42%, rgb(79,79,79) 44%);
-	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.42, rgb(67,67,67)),color-stop(0.44, rgb(79,79,79)));
+	background-color: #80909d;
 	
 	padding-top: 10px;
 	padding-bottom: 10px;	
 	
-	margin-top: 15px;
-	margin-bottom: 15px;
+	margin-top: 30px;
 	
-	border-radius: 5px;
-	-moz-border-radius: 5px;
+	border-radius: 5px 5px 0px 0px;
+	-moz-border-radius: 5px 5px 0px 0px;
 	
-	box-shadow: 1px 2px 4px #434343 inset;
-	-moz-box-shadow: 1px 2px 4px #434343 inset;
+	box-shadow: 4px 4px 6px #B9B9B9;
+	-moz-box-shadow: 4px 4px 6px #B9B9B9;
 	
 	/*for IE9*/
-	background-color: #AFAFAF;
+	background-color: #80909d;
 	/*for FF3.6*/
 	display: block;
 	/*------*/
@@ -93,18 +87,17 @@
 
 #third_section
 {
-	background-image: linear-gradient(top, rgb(236,234,235) 40%, rgb(223,219,220) 78%);
+	background-color: linear-gradient(top, rgb(236,234,235) 40%, rgb(223,219,220) 78%);
 	background-image: -o-linear-gradient(top, rgb(236,234,235) 40%, rgb(223,219,220) 78%);
 	background-image: -moz-linear-gradient(top, rgb(236,234,235) 40%, rgb(223,219,220) 78%);
 	background-image: -webkit-linear-gradient(top, rgb(236,234,235) 40%, rgb(223,219,220) 78%);
 	background-image: -ms-linear-gradient(top, rgb(236,234,235) 40%, rgb(223,219,220) 78%);
 	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.4, rgb(236,234,235)), color-stop(0.78, rgb(223,219,220)));
 
-	margin-top: 5px;
 	margin-bottom: 5px;
 
-	border-radius: 5px;
-	-moz-border-radius: 5px;
+	border-radius: 0px 0px 5px 5px;
+	-moz-border-radius: 0px 0px 5px 5px;
 
 	box-shadow: 4px 4px 6px #B9B9B9;
 	-moz-box-shadow: 4px 4px 6px #B9B9B9;
