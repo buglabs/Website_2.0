@@ -1,6 +1,6 @@
 <header>
 	<div id="clickable_logo">
-		<a href="index.php"><img src="/templates/beez5/images/header/clickable_logo.png" alt="Logo" /></a>
+		<a href="index.php"><img src="/templates/buglabs_mainpage/images/header/clickable_logo.png" alt="Logo" /></a>
 	</div>
 
 	<nav>

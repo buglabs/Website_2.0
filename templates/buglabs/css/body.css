@@ -1,11 +1,11 @@
 body
 {
-	background: url("/templates/atomic/images/header/header_banner.png") repeat-x, linear-gradient(top, rgb(165,165,165) 40%, rgb(209,209,209) 70%) repeat-x, url("/templates/atomic/images/header/plain_background.png") repeat;
-	background: url("/templates/atomic/images/header/header_banner.png") repeat-x, -o-linear-gradient(top, rgb(165,165,165) 40%, rgb(209,209,209) 70%) repeat-x, url("/templates/atomic/images/header/plain_background.png") repeat;
-	background: url("/templates/atomic/images/header/header_banner.png") repeat-x, -moz-linear-gradient(top, rgb(165,165,165) 40%, rgb(209,209,209) 70%) repeat-x, url("/templates/atomic/images/header/plain_background.png") repeat;
-	background: url("/templates/atomic/images/header/header_banner.png") repeat-x, -webkit-linear-gradient(top, rgb(165,165,165) 40%, rgb(209,209,209) 70%) repeat-x, url("/templates/atomic/images/header/plain_background.png") repeat;
-	background: url("/templates/atomic/images/header/header_banner.png") repeat-x, -ms-linear-gradient(top, rgb(165,165,165) 40%, rgb(209,209,209) 70%) repeat-x, url("/templates/atomic/images/header/plain_background.png") repeat;
-	background: url("/templates/atomic/images/header/header_banner.png") repeat-x, -webkit-gradient(linear, left top, left bottom, color-stop(0.4, rgb(165,165,165)), color-stop(0.70, rgb(209,209,209))) repeat-x, url("/templates/atomic/images/header/plain_background.png") repeat;
+	background: url("/templates/buglabs/images/header/header_banner.png") repeat-x, linear-gradient(top, rgb(165,165,165) 40%, rgb(209,209,209) 70%) repeat-x, url("/templates/buglabs/images/header/plain_background.png") repeat;
+	background: url("/templates/buglabs/images/header/header_banner.png") repeat-x, -o-linear-gradient(top, rgb(165,165,165) 40%, rgb(209,209,209) 70%) repeat-x, url("/templates/buglabs/images/header/plain_background.png") repeat;
+	background: url("/templates/buglabs/images/header/header_banner.png") repeat-x, -moz-linear-gradient(top, rgb(165,165,165) 40%, rgb(209,209,209) 70%) repeat-x, url("/templates/buglabs/images/header/plain_background.png") repeat;
+	background: url("/templates/buglabs/images/header/header_banner.png") repeat-x, -webkit-linear-gradient(top, rgb(165,165,165) 40%, rgb(209,209,209) 70%) repeat-x, url("/templates/buglabs/images/header/plain_background.png") repeat;
+	background: url("/templates/buglabs/images/header/header_banner.png") repeat-x, -ms-linear-gradient(top, rgb(165,165,165) 40%, rgb(209,209,209) 70%) repeat-x, url("/templates/buglabs/images/header/plain_background.png") repeat;
+	background: url("/templates/buglabs/images/header/header_banner.png") repeat-x, -webkit-gradient(linear, left top, left bottom, color-stop(0.4, rgb(165,165,165)), color-stop(0.70, rgb(209,209,209))) repeat-x, url("/templates/buglabs/images/header/plain_background.png") repeat;
 	
 	font-family: Cabin, 'PT Sans', Arial, Helvetica, Sans-serif;
 	color: #4F4F4F;
@@ -17,7 +17,7 @@ body
 
 #IE_banner
 {
-	background: url("/templates/atomic/images/header/header_banner.png") repeat-x;
+	background: url("/templates/buglabs/images/header/header_banner.png") repeat-x;
 	margin: -10px;
 }
 
