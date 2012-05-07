@@ -50,21 +50,22 @@
 
 #second_section
 {
-	background-color: #80909d;
+	background-color: #c8d5d8;
 	
 	padding-top: 10px;
 	padding-bottom: 10px;	
 	
-	margin-top: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	
-	border-radius: 5px 5px 0px 0px;
-	-moz-border-radius: 5px 5px 0px 0px;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
 	
 	box-shadow: 4px 4px 6px #B9B9B9;
 	-moz-box-shadow: 4px 4px 6px #B9B9B9;
 	
 	/*for IE9*/
-	background-color: #80909d;
+	background-color: #c8d5d8;
 	/*for FF3.6*/
 	display: block;
 	/*------*/
@@ -72,7 +73,7 @@
 
 #second_section p
 {
-	color: #E4E4E4;
+	
 	text-align: center;
 	margin: 0px;
 }
