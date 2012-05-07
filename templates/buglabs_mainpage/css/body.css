@@ -1,11 +1,11 @@
 body
 {
-	background: url("/templates/buglabs_mainpage/images/header/header_banner.png") repeat-x, linear-gradient(top, rgb(165,165,165) 40%, rgb(209,209,209) 70%) repeat-x, url("/templates/buglabs_mainpage/images/header/plain_background.png") repeat;
-	background: url("/templates/buglabs_mainpage/images/header/header_banner.png") repeat-x, -o-linear-gradient(top, rgb(165,165,165) 40%, rgb(209,209,209) 70%) repeat-x, url("/templates/buglabs_mainpage/images/header/plain_background.png") repeat;
-	background: url("/templates/buglabs_mainpage/images/header/header_banner.png") repeat-x, -moz-linear-gradient(top, rgb(165,165,165) 40%, rgb(209,209,209) 70%) repeat-x, url("/templates/buglabs_mainpage/images/header/plain_background.png") repeat;
-	background: url("/templates/buglabs_mainpage/images/header/header_banner.png") repeat-x, -webkit-linear-gradient(top, rgb(165,165,165) 40%, rgb(209,209,209) 70%) repeat-x, url("/templates/buglabs_mainpage/images/header/plain_background.png") repeat;
-	background: url("/templates/buglabs_mainpage/images/header/header_banner.png") repeat-x, -ms-linear-gradient(top, rgb(165,165,165) 40%, rgb(209,209,209) 70%) repeat-x, url("/templates/buglabs_mainpage/images/header/plain_background.png") repeat;
-	background: url("/templates/buglabs_mainpage/images/header/header_banner.png") repeat-x, -webkit-gradient(linear, left top, left bottom, color-stop(0.4, rgb(165,165,165)), color-stop(0.70, rgb(209,209,209))) repeat-x, url("/templates/buglabs_mainpage/images/header/plain_background.png") repeat;
+	background: url("/templates/buglabs_mainpage/images/header/header_banner.png") repeat-x, linear-gradient(top, rgb(175,175,175) 40%, rgb(219,219,219) 70%) repeat-x, url("/templates/buglabs_mainpage/images/header/plain_background.png") repeat;
+	background: url("/templates/buglabs_mainpage/images/header/header_banner.png") repeat-x, -o-linear-gradient(top, rgb(175,175,175) 40%, rgb(219,219,219) 70%) repeat-x, url("/templates/buglabs_mainpage/images/header/plain_background.png") repeat;
+	background: url("/templates/buglabs_mainpage/images/header/header_banner.png") repeat-x, -moz-linear-gradient(top, rgb(175,175,175) 40%, rgb(219,219,219) 70%) repeat-x, url("/templates/buglabs_mainpage/images/header/plain_background.png") repeat;
+	background: url("/templates/buglabs_mainpage/images/header/header_banner.png") repeat-x, -webkit-linear-gradient(top, rgb(175,175,175) 40%, rgb(219,219,219) 70%) repeat-x, url("/templates/buglabs_mainpage/images/header/plain_background.png") repeat;
+	background: url("/templates/buglabs_mainpage/images/header/header_banner.png") repeat-x, -ms-linear-gradient(top, rgb(175,175,175) 40%, rgb(219,219,219) 70%) repeat-x, url("/templates/buglabs_mainpage/images/header/plain_background.png") repeat;
+	background: url("/templates/buglabs_mainpage/images/header/header_banner.png") repeat-x, -webkit-gradient(linear, left top, left bottom, color-stop(0.4, rgb(175,175,175)), color-stop(0.70, rgb(219,219,219))) repeat-x, url("/templates/buglabs_mainpage/images/header/plain_background.png") repeat;
 	
 	font-family: Cabin, 'PT Sans', Arial, Helvetica, Sans-serif;
 	color: #4F4F4F;

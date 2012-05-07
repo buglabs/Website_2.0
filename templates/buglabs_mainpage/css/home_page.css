@@ -88,25 +88,25 @@
 
 #third_section
 {
-	background-color: linear-gradient(top, rgb(236,234,235) 40%, rgb(223,219,220) 78%);
+	/*background-color: linear-gradient(top, rgb(236,234,235) 40%, rgb(223,219,220) 78%);
 	background-image: -o-linear-gradient(top, rgb(236,234,235) 40%, rgb(223,219,220) 78%);
 	background-image: -moz-linear-gradient(top, rgb(236,234,235) 40%, rgb(223,219,220) 78%);
 	background-image: -webkit-linear-gradient(top, rgb(236,234,235) 40%, rgb(223,219,220) 78%);
 	background-image: -ms-linear-gradient(top, rgb(236,234,235) 40%, rgb(223,219,220) 78%);
 	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.4, rgb(236,234,235)), color-stop(0.78, rgb(223,219,220)));
-
+*/
 	margin-bottom: 5px;
 
-	border-radius: 0px 0px 5px 5px;
-	-moz-border-radius: 0px 0px 5px 5px;
+	/*border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
 
 	box-shadow: 4px 4px 6px #B9B9B9;
-	-moz-box-shadow: 4px 4px 6px #B9B9B9;
+	-moz-box-shadow: 4px 4px 6px #B9B9B9;*/
 	
 	text-align: center;
 	
 	/*for IE9*/
-	background-color: #ECEAEB;
+	/*background-color: #ECEAEB;*/
 	/*for FF3.6*/
 	display: block;
 	/*------*/
@@ -115,6 +115,7 @@
 #third_section h2
 {
 	margin: 0px;
+	margin-bottom: 5px;
 	font-size: 1.2em;
 	text-align: left;
 }
@@ -122,20 +123,35 @@
 #third_section p
 {
 	margin: 0px;
-	font-size: 0.8em;
+	/*font-size: 0.8em;*/
+	font-weight: 900;
+	font-size: 1em;
 	text-align: justify;
+	color: #6F6F6F;
 }
 
 #from_our_blog, #from_our_blog_text, #featured_app, #featured_app_text
 {
 	display: inline-block;
 	vertical-align: top;
-	width: 22%;
+	/*width: 22%;*/
+	width: 44%;
 	
-	margin-left: 10px;
-	margin-right: 10px;
+	/*margin-left: 10px;
+	margin-right: 10px;*/
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+
+#from_our_blog, #from_our_blog_text
+{
+	padding-right: 50px;
+	border-right: 2px solid #BFBFBF;
+}
+
+#featured_app, #featured_app_text
+{
+	padding-left: 50px;
 }
 
 #from_our_blog
@@ -143,14 +159,14 @@
 	margin-left: 5px;
 }
 
-#third_section img
+/*#third_section img
 {
 	width: 200px;
 	height: 120px;
 	
 	border-radius: 4px;	
 	-moz-border-radius: 4px;
-}
+}*/
 
 #third_section a
 {
