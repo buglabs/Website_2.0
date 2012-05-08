@@ -1,11 +1,11 @@
 header
 {
 	background: url("../images/header/bug_labs_logo.png") no-repeat;
-	
+
 	position: relative;
 	top: -8px;
 	height: 110px;
-	
+
 	/*for FF3.6*/
 	display: block;
 	/*--------*/
@@ -20,7 +20,7 @@ header #clickable_logo a
 {
 	float: left;
 	opacity: 0;
-	
+
 	/*for IE8*/
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	/*------*/
@@ -28,34 +28,42 @@ header #clickable_logo a
 
 header nav
 {
-	background-image: linear-gradient(bottom, rgb(70,70,70) 48%, rgb(102,100,101) 71%);
+	/*background-image: linear-gradient(bottom, rgb(70,70,70) 48%, rgb(102,100,101) 71%);
 	background-image: -o-linear-gradient(bottom, rgb(70,70,70) 48%, rgb(102,100,101) 71%);
 	background-image: -moz-linear-gradient(bottom, rgb(70,70,70) 48%, rgb(102,100,101) 71%);
 	background-image: -webkit-linear-gradient(bottom, rgb(70,70,70) 48%, rgb(102,100,101) 71%);
 	background-image: -ms-linear-gradient(bottom, rgb(70,70,70) 48%, rgb(102,100,101) 71%);
 	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.48, rgb(70,70,70)),color-stop(0.71, rgb(102,100,101)));
-
+*/
 	display: inline-block;
 	position: relative;
 	top: 71px;
-	
+	left: 20px;
+
 	float: right;
 	height: 35px;
-	
+
 	padding-left: 4px;
-	
+
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 
 	/*for IE9*/
-	background-color: rgb(70,70,70);
+	/*background-color: rgb(70,70,70);*/
 	/*------*/
 }
 
-header nav .item-478
+header nav .item-468 a
 {
 	border-right: none;
+	color: #000000;
+}
+
+header nav .item-478 a
+{
+	border-right: none;
+	color: red;
 }
 
 header ul
@@ -69,12 +77,12 @@ header a
 	padding-bottom: 6px;
 	padding-left: 30px;
 	padding-right: 30px;
-	color: #CCCCCC;
+	color: #4F4F4F;
 	text-decoration: none;
 	font-weight: 900;
-	text-shadow: -1px 0px 0px black;
-	font-size: 0.8em;
-	text-transform: uppercase;
+	/*text-shadow: -1px 0px 0px black;*/
+	/*font-size: 0.8em;*/
+	/*text-transform: uppercase;*/
 }
 
 header nav li
@@ -84,34 +92,34 @@ header nav li
 	position: relative;
 	top: -16px;
 	height: 16px;
-	
+
 	padding-top: 9px;
 	padding-bottom: 10px;
-	
-	border-right: 1px outset #C8C8C8;
+
+	/*border-right: 1px outset #C8C8C8;*/
 	text-align: center;
 }
 
-header nav .item-468
+/*header nav .item-468
 {
 	margin-left: -4px;
-}
+}*/
 
 header nav li:hover, header nav .item-468:hover, header nav .item-478:hover
 {
-	background-image: linear-gradient(bottom, rgb(91,91,91) 2%, rgb(83,83,83) 50%, rgb(116,114,115) 68%);
+	/*background-image: linear-gradient(bottom, rgb(91,91,91) 2%, rgb(83,83,83) 50%, rgb(116,114,115) 68%);
 	background-image: -o-linear-gradient(bottom, rgb(91,91,91) 2%, rgb(83,83,83) 50%, rgb(116,114,115) 68%);
 	background-image: -moz-linear-gradient(bottom, rgb(91,91,91) 2%, rgb(83,83,83) 50%, rgb(116,114,115) 68%);
 	background-image: -webkit-linear-gradient(bottom, rgb(91,91,91) 2%, rgb(83,83,83) 50%, rgb(116,114,115) 68%);
 	background-image: -ms-linear-gradient(bottom, rgb(91,91,91) 2%, rgb(83,83,83) 50%, rgb(116,114,115) 68%);
 	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.02, rgb(91,91,91)),color-stop(0.5, rgb(83,83,83)),color-stop(0.68, rgb(116,114,115)));
-	
+	*/
 	/*for IE*/
-	background-color: rgb(91,91,91);
+	/*background-color: rgb(91,91,91);*/
 	/*------*/
 }
 
-header nav .item-468:hover
+/*header nav .item-468:hover
 {
 	border-radius: 5px 0px 0px 5px;
 	-moz-border-radius: 5px 0px 0px 5px;
@@ -121,8 +129,4 @@ header nav .item-478:hover
 {
 	border-radius: 0px 5px 5px 0px;
 	-moz-border-radius: 0px 5px 5px 0px;
-}
-
-
-
-
+}*/
