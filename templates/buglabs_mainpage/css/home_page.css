@@ -73,7 +73,6 @@
 
 #second_section p
 {
-
 	text-align: center;
 	margin: 0px;
 }
@@ -102,7 +101,7 @@
 
 	box-shadow: 4px 4px 6px #B9B9B9;
 	-moz-box-shadow: 4px 4px 6px #B9B9B9;*/
-
+	
 	text-align: center;
 
 	/*for IE9*/
@@ -136,7 +135,7 @@
 	vertical-align: top;
 	/*width: 22%;*/
 	width: 44%;
-
+	
 	/*margin-left: 10px;
 	margin-right: 10px;*/
 	margin-top: 20px;

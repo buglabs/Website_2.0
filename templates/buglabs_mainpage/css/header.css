@@ -39,7 +39,7 @@ header nav
 	position: relative;
 	top: 71px;
 	left: 20px;
-
+	
 	float: right;
 	height: 35px;
 
@@ -95,7 +95,7 @@ header nav li
 
 	padding-top: 9px;
 	padding-bottom: 10px;
-
+	
 	/*border-right: 1px outset #C8C8C8;*/
 	text-align: center;
 }

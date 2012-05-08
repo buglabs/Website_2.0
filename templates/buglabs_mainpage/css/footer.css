@@ -42,8 +42,9 @@ footer a
 {
 	color: #3F3F3F;
 	text-decoration: none;
-	font-weight: 900;
-	text-shadow: 1px 1px 0px white;
+	/*font-weight: 900;*/
+	font-weight: 200;
+	/*text-shadow: 1px 1px 0px white;*/
 }
 
 footer nav li
@@ -58,9 +59,9 @@ footer li a
 	padding-top: 4px;
 	padding-bottom: 4px;
 	
-	border-right: 1px inset #969696;
+	/*border-right: 1px inset #969696;
 	font-size: 0.75em;
-	text-transform: uppercase;
+	text-transform: uppercase;*/
 }
 
 footer a:hover
