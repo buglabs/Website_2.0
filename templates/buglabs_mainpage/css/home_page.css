@@ -4,7 +4,7 @@
 #first_section
 {
 	position: relative;
-	margin-bottom: 5px;
+	margin-bottom: 0px;
 }
 
 #first_section table
@@ -15,17 +15,17 @@
 #first_section td
 {
 	width: 314px;
-	height: 300px;
+	height: 350px;
 }
 
 #first_section td img
 {
 	margin-top: -150px;
-	
+
 	width: 314px;
-	height: 300px;
+	height: 350px;
 	opacity: 0;
-	
+
 	/*for IE8*/
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	/*------*/
@@ -34,13 +34,13 @@
 #first_section img
 {
 	position: absolute;
-	
+
 	width: 952px;
-	height: 300px;
+	height: 350px;
 
 	border-radius: 5px;
 	-moz-border-radius: 5px;
-	
+
 	box-shadow: 2px 2px 4px #A4A4A4;
 	-moz-box-shadow: 2px 2px 4px #A4A4A4;
 }
@@ -50,27 +50,22 @@
 
 #second_section
 {
-	background-image: linear-gradient(bottom, rgb(67,67,67) 42%, rgb(79,79,79) 44%);
-	background-image: -o-linear-gradient(bottom, rgb(67,67,67) 42%, rgb(79,79,79) 44%);
-	background-image: -moz-linear-gradient(bottom, rgb(67,67,67) 42%, rgb(79,79,79) 44%);
-	background-image: -webkit-linear-gradient(bottom, rgb(67,67,67) 42%, rgb(79,79,79) 44%);
-	background-image: -ms-linear-gradient(bottom, rgb(67,67,67) 42%, rgb(79,79,79) 44%);
-	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.42, rgb(67,67,67)),color-stop(0.44, rgb(79,79,79)));
-	
-	padding-top: 10px;
-	padding-bottom: 10px;	
-	
-	margin-top: 15px;
-	margin-bottom: 15px;
-	
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	
-	box-shadow: 1px 2px 4px #434343 inset;
-	-moz-box-shadow: 1px 2px 4px #434343 inset;
-	
+	background-color: #c8d5d8;
+
+	padding-top: 5px;
+	padding-bottom: 5px;	
+
+	margin-top: 10px;
+	margin-bottom: 0px;
+
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+
+	box-shadow: 4px 4px 6px #B9B9B9;
+	-moz-box-shadow: 4px 4px 6px #B9B9B9;
+
 	/*for IE9*/
-	background-color: #AFAFAF;
+	background-color: #c8d5d8;
 	/*for FF3.6*/
 	display: block;
 	/*------*/
@@ -78,7 +73,6 @@
 
 #second_section p
 {
-	color: #E4E4E4;
 	text-align: center;
 	margin: 0px;
 }
@@ -93,26 +87,25 @@
 
 #third_section
 {
-	background-image: linear-gradient(top, rgb(236,234,235) 40%, rgb(223,219,220) 78%);
+	/*background-color: linear-gradient(top, rgb(236,234,235) 40%, rgb(223,219,220) 78%);
 	background-image: -o-linear-gradient(top, rgb(236,234,235) 40%, rgb(223,219,220) 78%);
 	background-image: -moz-linear-gradient(top, rgb(236,234,235) 40%, rgb(223,219,220) 78%);
 	background-image: -webkit-linear-gradient(top, rgb(236,234,235) 40%, rgb(223,219,220) 78%);
 	background-image: -ms-linear-gradient(top, rgb(236,234,235) 40%, rgb(223,219,220) 78%);
 	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.4, rgb(236,234,235)), color-stop(0.78, rgb(223,219,220)));
-
-	margin-top: 5px;
+*/
 	margin-bottom: 5px;
 
-	border-radius: 5px;
-	-moz-border-radius: 5px;
+	/*border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
 
 	box-shadow: 4px 4px 6px #B9B9B9;
-	-moz-box-shadow: 4px 4px 6px #B9B9B9;
+	-moz-box-shadow: 4px 4px 6px #B9B9B9;*/
 	
 	text-align: center;
-	
+
 	/*for IE9*/
-	background-color: #ECEAEB;
+	/*background-color: #ECEAEB;*/
 	/*for FF3.6*/
 	display: block;
 	/*------*/
@@ -121,6 +114,7 @@
 #third_section h2
 {
 	margin: 0px;
+	margin-bottom: 5px;
 	font-size: 1.2em;
 	text-align: left;
 }
@@ -128,20 +122,35 @@
 #third_section p
 {
 	margin: 0px;
-	font-size: 0.8em;
+	/*font-size: 0.8em;*/
+	font-weight: 900;
+	font-size: 1em;
 	text-align: justify;
+	color: #6F6F6F;
 }
 
 #from_our_blog, #from_our_blog_text, #featured_app, #featured_app_text
 {
 	display: inline-block;
 	vertical-align: top;
-	width: 22%;
+	/*width: 22%;*/
+	width: 44%;
 	
-	margin-left: 10px;
-	margin-right: 10px;
+	/*margin-left: 10px;
+	margin-right: 10px;*/
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+
+#from_our_blog, #from_our_blog_text
+{
+	padding-right: 50px;
+	border-right: 2px solid #BFBFBF;
+}
+
+#featured_app, #featured_app_text
+{
+	padding-left: 50px;
 }
 
 #from_our_blog
@@ -149,14 +158,14 @@
 	margin-left: 5px;
 }
 
-#third_section img
+/*#third_section img
 {
 	width: 200px;
 	height: 120px;
 	
 	border-radius: 4px;	
 	-moz-border-radius: 4px;
-}
+}*/
 
 #third_section a
 {
